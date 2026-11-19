@@ -1,7 +1,25 @@
 /*
   ITD110 Zen Garden Project
-  Your name:
+  Your name: Rubbah Ali
   Your design concept (one sentence):
 
   All of your CSS goes in this file.
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Redaction+20:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    background-color:lightblue;
+    font-family: "Redaction 20",Arial;
+}
+#disclaimer{
+    background-color:#8dc6ff;
+}
+.submenu {
+    display: none;
+}
+
+.menu-item:hover .submenu
+.menu-item:focus-within .submenu {
+    display: block;
+}
