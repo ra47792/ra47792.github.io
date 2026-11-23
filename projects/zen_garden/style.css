@@ -7,29 +7,38 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Redaction+20:ital,wght@0,400;0,700;1,400&display=swap');
-/* These rules always apply */
-body {
-    font-size: 1.25rem;
-}
 
-/* These rules only apply when the screen is 600px wide or less */
-@media (max-width: 600px) {
-    body {
-        font-size: 1rem;
-    }
-}
 body{
-    background-color:lightblue;
-    font-family: "Redaction 20",Arial;
+    background-color:#ffb5b5;
+    font-family: "Redaction 20",Regular 400 Italic;
+  
 }
 #disclaimer{
-    background-color:#8dc6ff;
+    background-color:#ffcbcb;
+    border:2px solid #333;
+    padding:5px;
 }
 .submenu {
     display:none;
+    background-color:#ffcbcb;
 }
 
 .menu-item:hover .submenu
 .menu-item:focus-within .submenu {
     display:block;
+}
+.menu {
+  width:250px;              
+  height:150px;             
+  background-color:#ffcbcb; 
+  border:2px solid #333;    
+  padding:20px;             
+  margin:15px;              
+  box-sizing:border-box;
+}
+#branding {
+  border: 4px solid #333333;
+  width:1050px;
+
+
 }
