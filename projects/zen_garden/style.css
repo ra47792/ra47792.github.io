@@ -1,13 +1,23 @@
 /*
   ITD110 Zen Garden Project
   Your name: Rubbah Ali
-  Your design concept (one sentence):
+  Your design concept (one sentence): The sky has a wonderful pallet.
 
   All of your CSS goes in this file.
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Redaction+20:ital,wght@0,400;0,700;1,400&display=swap');
+/* These rules always apply */
+body {
+    font-size: 1.25rem;
+}
 
+/* These rules only apply when the screen is 600px wide or less */
+@media (max-width: 600px) {
+    body {
+        font-size: 1rem;
+    }
+}
 body{
     background-color:lightblue;
     font-family: "Redaction 20",Arial;
@@ -16,10 +26,10 @@ body{
     background-color:#8dc6ff;
 }
 .submenu {
-    display: none;
+    display:none;
 }
 
 .menu-item:hover .submenu
 .menu-item:focus-within .submenu {
-    display: block;
+    display:block;
 }
